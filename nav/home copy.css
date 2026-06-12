@@ -1,20 +1,16 @@
-header, footer{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 0.1rem solid #11224E
+body{
+    background-attachment: scroll;
+    background-image: url();
 }
-
 header{
-    background-color:#11224E;
+    background-color:#2c2e35e7;
     color:wheat;
     padding: 0.5rem 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: radius bottom 67rem;
+    border-radius: 30px;
 }
 
 .logo{
@@ -22,14 +18,16 @@ header{
     align-items: center;
     width: 3rem;
     height: 3rem;
+    margin-left: 10px;
 }
 
 .h-one{
-    font-size: 100%;
+    font-size: 150%;
     margin-right: 0.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-right: auto;
     margin-left: 0.5rem;
+    text-shadow: #F87B1B;
 }
 
 nav a{
@@ -43,7 +41,6 @@ nav a{
     margin-right: 0 0.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0.5rem;
-
 }
 
 nav a:hover{
@@ -70,6 +67,10 @@ nav li:hover{
     justify-content: center;
 }
 
+.n_links select{
+    text-decoration: underline;
+}
+
 .cont button{
     background-color: #F87B1B;
     color: wheat;
@@ -84,7 +85,8 @@ nav li:hover{
 }
 .cont button:hover{
     background-color: #fd6f03a1;
-}   
+} 
+
 
 footer{
     background-color: #11224E;
@@ -95,4 +97,7 @@ footer{
     bottom: 0;
     width: 100%;
     justify-content: space-between;
+}
+.intro{
+    
 }
